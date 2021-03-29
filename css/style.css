@@ -99,9 +99,30 @@ header{
     font-family: sans-serif;
     font-size: 16px;
     color: white;
+}
+
+.menu ul li a:hover{
+    color: #0078bd;
+}
 /* Header End */
 
+
 /* Banner Start */
+.banner {
+    background-color: #121b2a;
+}
+
+.b_content {
+}
+
+.b_content h1{
+}
+
+.b_content p{
+}
+
+.b_image {
+}
 /* Banner End */
 
 /* Service Start */
