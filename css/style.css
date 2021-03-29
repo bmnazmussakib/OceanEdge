@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Start */
+header{
+    /* border: 1px solid red; */
+    background-color: #121b2a;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid green; */
+}
+
+.logo {
+    width: 15%;
+    float: left;
+    /* border: 1px solid darkmagenta; */
+    padding: 20px 0px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.login{
+    /* border: 1px solid palegreen; */
+    overflow: hidden;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.login ul{
+    float: right;
+}
+
+.login ul li{
+    display: inline-block;
+    padding: 15px 30px;
+    /* border: 1px solid brown; */
+    text-align: center;
+    margin-left: -4px;
+}
+.client{
+    background-color: ffffff;
+}
+
+.client a{
+    color: rgb(33, 32, 32)
+}
+
+.employee{
+    background-color: #0078bd;
+}
+
+.employee a{
+    color: #ffffff;
+}
+
+.login ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.menu {
+    width: 70%;
+    float: right;
+    /* border: 1px solid darkmagenta; */
+    padding: 15px 0px;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    padding: 0px 25px;
+}
+
+.menu ul li:last-child{
+    padding-right: 0;
+}
+.menu ul li:first-child{
+    padding-left: 0;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+/* Header End */
+
+/* Banner Start */
+/* Banner End */
+
+/* Service Start */
+/* Service End */
+
+/* Contact Start */
+/* Contact End */
+
+/* Footer Start */
+/* Footer End */
