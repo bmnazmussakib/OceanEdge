@@ -295,7 +295,77 @@ header{
 }
 /* Service End */
 
+
 /* Contact Start */
+.contact {
+    background-color: #040811;
+    border: 2px solid red;
+    color: white;
+}
+
+.container4 {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid green;
+}
+
+.c-content {
+    
+}
+
+.contact-card{
+    border: 1px solid orange;
+    width: 30%;
+    float: left;
+}
+
+.contact-info {
+}
+
+.contact-info h3{
+}
+
+.contact-info p{
+}
+
+.contact-info table{
+    color: white;
+}
+
+.testimonial {
+}
+
+.testimonial-body {
+}
+
+.testimonial-body h3{
+}
+
+.testimonial-body p{
+}
+
+.signature {
+}
+
+.signature h3{
+}
+
+.signature p{
+}
+
+.app-download {
+}
+
+.app-content{
+    float: left;
+}
+
+.iphone {
+}
+
+.app-name {
+}
 /* Contact End */
 
 /* Footer Start */
