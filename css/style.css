@@ -7,6 +7,7 @@
 header{
     /* border: 1px solid rgb(240, 236, 236); */
     background-color: #121b2a;
+    overflow: hidden;
 }
 
 .container {
@@ -119,7 +120,7 @@ header{
     overflow: hidden;
 }
 
-.b_content {
+.b-content {
     float: left;
     width: 50%;
     position: absolute;
@@ -128,7 +129,7 @@ header{
     padding-top: 200px;
 }
 
-.b_content h1{
+.b-content h1{
     text-transform: capitalize;
     font-size: 50px;
     width: 100%;
@@ -142,7 +143,7 @@ header{
     color: #0078bd;
 }
 
-.b_content p{
+.b-content p{
     padding: 20px 0 70px 0;
     line-height: 30px;
     font-size: 20px;
@@ -159,12 +160,12 @@ header{
 }
 
 
-.b_image {
+.b-image {
     float: right;
     width: 55%;
 }
 
-.b_image img{
+.b-image img{
     width: 100%;
 }
 /* Banner End */
@@ -172,39 +173,98 @@ header{
 
 /* Service Start */
 .service {
+    /* border: 5px solid red; */
+    
+    background-color: #121b2a;
 }
 
 .container3 {
     width: 85%;
     margin: 0 auto;
     overflow: hidden;
-    border: 1px solid green;
+    /* border: 1px solid green */
+    background-color: #121b2c;
+    padding: 30px 0;
 }
 
-.s_content {
+.s-content {
+    /* border: 1px solid blue; */
+    
 }
+
+.s-content :first-child{
+    /* border: 1px solid blue; */
+    padding-left: 0px;
+    
+}
+
+.s-content :last-child{
+    /* border: 1px solid blue; */
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 1px;
+    
+}
+
 
 .cyber-security {
 }
 
-.card {
-    width: 30%;
-    border: 1px solid pink;
+.card{
+    width: 27%;
+    /* border: 1px solid rgb(24, 196, 124); */
+    float: left;
+    font-family: sans-serif;
+    color: white;
+    padding: 30px 50px;
+    margin: 0px 0px;
+    border-right: lightgrey;
+    border-right: 1px solid #1a2430;
 }
 
+
+
 .cyber-headline {
+    
+}
+
+.card-headline{
+    overflow: hidden;
+    padding: 0 0 20px 0;
 }
 
 .cyber-img {
+    
+}
+
+.card-img{
+    float: left;
+    margin-right: 10px;
 }
 
 .cyber-title {
 }
 
-.cyber_content {
+.card-title{
+    width: 70%;
+    float: left;
 }
 
-.app-development.card {
+.card-title h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 25px;
+}
+
+.cyber-content {
+}
+
+.card-content{}
+
+.card-content p{
+}
+
+.app-development {
 }
 
 .app-headline {
@@ -216,10 +276,10 @@ header{
 .app-title {
 }
 
-.app_content {
+.app-content {
 }
 
-.wireless-system.card {
+.wireless-system {
 }
 
 .wireless-headline {
@@ -231,7 +291,7 @@ header{
 .wireless-title {
 }
 
-.wireless_content {
+.wireless-content {
 }
 /* Service End */
 
