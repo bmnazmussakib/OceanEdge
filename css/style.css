@@ -174,7 +174,6 @@ header{
 /* Service Start */
 .service {
     /* border: 5px solid red; */
-    
     background-color: #121b2a;
 }
 
@@ -254,6 +253,11 @@ header{
     font-size: 20px;
     text-transform: capitalize;
     padding-top: 25px;
+    font-weight: 300;
+}
+
+.card-title h3 span{
+    color: #007abd
 }
 
 .cyber-content {
@@ -299,31 +303,60 @@ header{
 /* Contact Start */
 .contact {
     background-color: #040811;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
+    font-family: sans-serif;
 }
 
 .container4 {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .c-content {
-    
+    margin: 20px 0px 0px 5px;
+}
+
+.c-content:first-child {
+    /* margin-left: 0; */
+}
+
+.c-content:last-child {
+    margin-right: 0;
 }
 
 .contact-card{
-    border: 1px solid orange;
-    width: 30%;
+    /* border: 1px solid orange; */
+    width: 25%;
     float: left;
+    padding: 20px 16px;
+    margin: 0px 0 0px 0px;
+}
+
+
+
+.contact-card h3{
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.contact-card p{
+    padding-bottom: 20px;
 }
 
 .contact-info {
+    /* width: 25%; */
 }
 
 .contact-info h3{
+}
+
+.contact-info h3 span{
+    color: #0078bd;
 }
 
 .contact-info p{
@@ -331,21 +364,44 @@ header{
 
 .contact-info table{
     color: white;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.contact-info table tr td{
+    padding: 0px 20px 0px 0px;
 }
 
 .testimonial {
+    width: 35%;
 }
 
 .testimonial-body {
+    background-color: #0c1019;
+    padding: 20px 30px;
 }
 
 .testimonial-body h3{
 }
 
+.testimonial-body h3 span{
+    color: #0078bd;
+}
+
 .testimonial-body p{
 }
 
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 80px 0 0;
+    border-color: #0c1019 transparent transparent transparent;
+    margin-left: 190px;
+}
+
 .signature {
+    margin-top: 30px;
 }
 
 .signature h3{
@@ -354,11 +410,17 @@ header{
 .signature p{
 }
 
+.signature p a{
+    text-decoration: none;
+    color: white;
+}
 .app-download {
+    width: 30%;
 }
 
 .app-content{
     float: left;
+    margin-right: 10px;
 }
 
 .iphone {
@@ -366,7 +428,95 @@ header{
 
 .app-name {
 }
+
+.app-name h2{
+    /* font-weight: 300; */
+    color: #0078bd;
+    font-weight: 700;
+}
+
+.app-name h2 span{
+    color: white;
+    font-weight: 300;
+}
+
+.app-name h2{
+    margin-bottom: 20px;
+}
 /* Contact End */
 
+
 /* Footer Start */
+.footer {
+    background-color: #121b2c;
+    color: white;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.container5 {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid green; */
+    padding: 30px 0;
+    font-size: 14px;
+}
+
+.f-content {
+    width: 60%;
+    float: left;
+    padding: 0px 0px;
+}
+
+
+.footer-menu {
+    margin-bottom: 15px;
+}
+
+.footer-menu a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+
+.footer-menu a:first-child{
+    padding-left: 0;
+}
+
+.footer-menu a:last-child{
+    padding-right: 0;
+    border-right: none;
+}
+
+.copyright {
+}
+
+.copyright p{
+}
+
+.f-logo {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+
+.footer-second {
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    width: 45%;
+}
+
+.symbian-logo {
+    margin-right: 20px;
+}
+
+.column img{
+    width: 100%;
+}
 /* Footer End */
